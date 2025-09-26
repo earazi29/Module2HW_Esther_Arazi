@@ -1,0 +1,24 @@
+'''
+Esther Arazi MCON 141
+This program calculates the conversion between minutes to hours
+and hours to minutes
+'''
+
+def minutes_to_hours_and_minutes():
+    '''
+     The first question will ask you, "How many minutes you would
+     like to calculate?" After inserting a number, the program will
+     give you an answer and will then ask you, "How many hours you would
+     like to calculate?" After inserting a number, the program will
+     give you an answer of hours in minutes.
+    '''
+
+    minutes=input('How many minutes would you like to calculate?: ') #
+    MIN = float(minutes) #
+#
+    print('Total amount of hours:', round(MIN/60,3))
+
+    hours = input('How many hours would you like to calculate?: ') #
+    HOUR = float(hours) #
+#
+    print('Total amount of minutes:', round(HOUR*60,3))
